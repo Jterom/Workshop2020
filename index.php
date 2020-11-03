@@ -28,7 +28,7 @@
 </div>
 
 <div class="around_you">
-   <h2>Autour de vous:</h2>
+    <h2>Autour de vous:</h2>
 
     <p>Afin de vous accompagner dans vos nouveaux modes de vie, nous avons concentré ici, les indispensables de votre quotidien.</p>
 </div>
