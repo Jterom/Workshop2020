@@ -33,6 +33,7 @@
     <p>Afin de vous accompagner dans vos nouveaux modes de vie, nous avons concentré ici, les indispensables de votre quotidien.</p>
 </div>
 
+
 <div class="lien">
     <h4 id="velo_title">Nantes à vélo :</h4>
     <p id="velo_resume">grâce au bicloo, empruntez les pistes cyclables. </p>
@@ -50,14 +51,6 @@
     <h5 id="actors_title">Devenez à votre tour, acteur de la transition écologique de votre ville !</h5>
     <p id="actors_resume">Accédez à notre réseau de proximité. Nous avons regroupé les contacts associatifs, qui oeuvrent quotidiennement à Nantes. Ils ont besoin de votre contribution. </p>
 </div>
-
-<div class="flux">
-    <h5 id="agendas_title">A vos agendas</h5>
-    <h5 id="nouvelles_title">Les dernières nouvelles</h5>
-
-</div>
-
-
 
 
 
