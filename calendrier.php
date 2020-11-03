@@ -1,7 +1,7 @@
 <?php include './parts/head.php'; ?>
 <?php include './parts/header.php'; ?>
 
-PAGE D'ACCUEIL
+PAGE DE CALENDRIER
 
 
 
