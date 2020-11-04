@@ -1,8 +1,10 @@
 <?php include './parts/head.php'; ?>
 <?php include './parts/header.php'; ?>
 
-
-
+<div class="title">
+    <h1>Les solutions durables nantaises !</h1>
+    <p>Le site dédié à la transition écologique, près de chez vous.</p>
+</div>
 <div class="resume_map">
     <h2 id="title">Nantes d’hier à aujourd’hui :</h2>
     <p id="resume">
@@ -15,12 +17,10 @@
 
         A travers cette carte, visualisez la transformation Nantaise !
     </p>
-
     <figure>
         <img id="map_today" src="src/ressources/Nantes.PNG" alt="Nantes aujourd'hui" >
         <figcaption>Nantes aujourd'hui</figcaption>
     </figure>
-
     <figure>
         <img id="map_tomorrow" src="src/ressources/Nantes.PNG" alt="Nantes demain">
         <figcaption>Nantes demain</figcaption>
@@ -29,10 +29,8 @@
 
 <div class="around_you">
     <h2>Autour de vous:</h2>
-
     <p>Afin de vous accompagner dans vos nouveaux modes de vie, nous avons concentré ici, les indispensables de votre quotidien.</p>
 </div>
-
 
 <div class="lien">
     <h4 id="velo_title">Nantes à vélo :</h4>
@@ -44,16 +42,13 @@
     <h4 id="compost_title">Réduisez vos déchets :</h4>
     <p id="compost_resume">   localisez les composts, près de chez vous. </p>
     <img src="src/ressources/compost.jpg" id="compost_img">
-
 </div>
 
 <div class="all_actors">
     <h5 id="actors_title">Devenez à votre tour, acteur de la transition écologique de votre ville !</h5>
     <p id="actors_resume">Accédez à notre réseau de proximité. Nous avons regroupé les contacts associatifs, qui oeuvrent quotidiennement à Nantes. Ils ont besoin de votre contribution. </p>
 </div>
-
-
-
-
 </body>
 </html>
+
+<?php include './parts/footer.php'; ?>
