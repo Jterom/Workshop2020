@@ -31,12 +31,8 @@
     <button>Rafraichir</button>
 </div>
 
-
 <div class="liste_asso">
 </div>
-
-
-
 
 </body>
 </html>
