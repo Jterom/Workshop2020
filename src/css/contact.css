@@ -1,10 +1,24 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 3 nov. 2020, 13:05:51
-    Author     : theoz
-*/
+body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+}
+/*Barre de Navigation*/
+head{
+    grid-row-start: 1;
+}
 
+.formulaire{
+    display: grid;
+    grid-template-columns: 40% auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto ;
+}
+
+.formulaire>#nom>label{
+    grid-column-start: 2;
+}
+
+.formulaire>#nom>#nom_text{
+    grid-column-start: 3;
+}
