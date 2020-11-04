@@ -1,0 +1,69 @@
+<<<<<<< HEAD
+=======
+body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows : auto auto auto auto auto auto;
+}
+
+head{
+    grid-row-start: 1;
+}
+
+/*Partie de recherche*/
+.search{
+    margin: auto;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    grid-row-start: 2;
+    text-align: center;
+}
+
+/*Partie Filtre*/
+#filtre_title{
+    grid-row-start: 3;
+    text-align: center;
+
+}
+.filtrecheck{
+    padding: 2%;
+    grid-row-start: 4;
+    display: grid;
+    grid-template-columns: 10% auto auto auto auto auto auto 10%;
+    background-color: darkseagreen;
+}
+
+.filtrecheck>#Environnement{
+    grid-column-start : 2;
+}
+
+.filtrecheck>#Reparation{
+    grid-column-start: 3;
+}
+
+.filtrecheck>#Maraicher{
+    grid-column-start: 4;
+}
+
+.filtrecheck>#Producteurs{
+    grid-column-start: 5;
+}
+.filtrecheck>#BioCoop{
+    grid-column-start: 6;
+}
+.filtrecheck>button{
+    grid-column-start: 7;
+    background-color: #222222;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+>>>>>>> cc21cf3df643ec7515dadb83ca96ca1f6d0bc81f
