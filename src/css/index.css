@@ -1,4 +1,136 @@
 body{
     margin: 0;
     padding: 0;
+    display: grid;
+    grid-template-rows : auto auto auto auto auto auto auto;
+}
+head{
+    grid-row-start: 1;
+}
+/*Partie title de la page d'accueil*/
+.title{
+    padding: 1%;
+    grid-row-start: 2;
+    display: grid;
+    grid-template-rows: auto auto ;
+    background-color: darkseagreen;
+
+}
+
+.title>h1{
+    grid-row-start: 1;
+    text-align: center;
+
+}
+.title>p{
+    grid-row-start: 2;
+    text-align: center;
+}
+
+/*Partie article et les deux map d'aujourd'hui et de demain*/
+.resume_map{
+    padding: 1%;
+    grid-row-start: 3;
+    display: grid;
+    grid-template-columns: 40% 30% auto;
+    grid-template-rows: auto auto ;
+}
+
+.resume_map #title{
+    grid-row-start: 1;
+    grid-column-start: 1;
+
+}
+.resume_map #resume{
+    grid-row-start: 2;
+    grid-column-start: 1;
+    padding-right: 10%;
+}
+
+.resume_map img,figure{
+    padding: 0% 1% 0% 0%;
+
+    width: 100%;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+    object-fit: cover;
+
+}
+
+.resume_map figcaption{
+    width: 100%;
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    text-align: center;
+    align-items: center;
+}
+
+
+.resume_map figcaption{
+
+}
+.resume_map #map_today{
+    grid-column-start: 2;
+}
+.resume_map #map_tomorrow{
+    grid-column-start: 3;
+}
+
+/*Partie "Autour de vous*/
+.around_you{
+    padding: 1%;
+    grid-row-start: 4;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.around_you h2{
+    grid-row-start: 1;
+    text-align: center;
+}
+
+.around_you p{
+    grid-row-start: 2;
+    text-align: center;
+}
+
+/*Partie sur les liens vers les autres pages*/
+.lien{
+    padding-left: 1%;
+    padding-bottom: 2%;
+    grid-row-start: 5;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 33% 33% 33%;
+    align-items: center;
+}
+
+.lien h4{
+    padding-top: 2%;
+    grid-row-start: 1;
+    text-align: center;
+}
+
+.lien img{
+    max-width: 100%;
+    height: auto;
+    padding: 1%;
+    grid-row-start: 3;
+}
+
+.lien p{
+    grid-row-start: 2;
+    text-align: center;
+}
+
+/*Partie de la page qui correspond à all_actors*/
+.all_actors{
+    padding: 1%;
+    grid-row-start: 6;
+    display: grid;
+    grid-template-rows: auto auto;
+    text-align: center;
+    background-color: darkseagreen;
+
 }

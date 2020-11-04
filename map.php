@@ -1,12 +1,6 @@
 <?php include './parts/head.php'; ?>
 <?php include './parts/header.php';
 
-ini_set('display_errors','on');
-error_reporting(E_ALL);
-
-ini_set('display_errors','on');
-error_reporting(E_ALL);
-
 $db = new PDO("mysql:host=localhost" . ";dbname=wordpress2020", "root", "root");
 
 
@@ -30,20 +24,18 @@ $positions = $r->fetchAll();
             zoom: 4,
             center: uluru,
         });
-        // The marker, positioned at Uluru
-        const marker2 = new google.maps.Marker({
-            position: uluru,
-            map: map,
-        });
-        <?php foreach ($positions as $position){ ?>
-        const marker = new google.maps.Marker({
-            position:{lat: <?php echo $position["lat"] ?>, lng: 135.1231},
+        <?php
+            $i =0;
+        foreach ($positions as $position){
+            $i++
+            ?>
+        const marker<?php echo $i?> = new google.maps.Marker({
+            position:{lat: <?php echo $position["lat"] ?>, lng:<?php echo $position["lng"] ?>},
             map: map,
         });
         <?php } ?>
     }
 </script>
 <div id="map"></div>
-<?php foreach ($positions as $position){ echo $position["lat"];}?>
 </body>
 </html>

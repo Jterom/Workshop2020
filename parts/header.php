@@ -7,7 +7,7 @@
         <div class="navbar-nav">
             <a class="nav-item nav-link active" href="actualite.php">Actualités <span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="map.php">Map</a>
-            <a class="nav-item nav-link" href="association.php">Association</a>
+            <a class="nav-item nav-link" href="association.php">Réseau de proximité</a>
             <a class="nav-item nav-link" href="calendrier.php">Calendrier</a>
             <a class="nav-item nav-link" href="a-propos.php">A propos</a>
             <a class="nav-item nav-link" href="contact.php">Contact</a>
