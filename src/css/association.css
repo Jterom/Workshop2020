@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 body{
     margin: 0;
     padding: 0;
@@ -13,12 +11,15 @@ head{
 
 /*Partie de recherche*/
 .search{
-    margin: auto;
     width: 100%;
-    padding-top: 5%;
+    padding-top: 3%;
     padding-bottom: 5%;
     grid-row-start: 2;
     text-align: center;
+}
+
+.search>#site-search{
+    padding-left: 5%;
 }
 
 /*Partie Filtre*/
@@ -50,10 +51,19 @@ head{
 .filtrecheck>#Producteurs{
     grid-column-start: 5;
 }
-.filtrecheck>#BioCoop{
-    grid-column-start: 6;
+
+#rafraichir{
+    grid-column-start: 7;
+    background-color: #222222;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
 }
-.filtrecheck>button{
+button {
     grid-column-start: 7;
     background-color: #222222;
     border: none;
@@ -65,5 +75,15 @@ head{
     cursor: pointer;
 }
 
+.liste_asso{
+    padding: 2%;
+}
 
->>>>>>> cc21cf3df643ec7515dadb83ca96ca1f6d0bc81f
+table {
+    border: medium solid #000000;
+    width: 100%;
+}
+td, th {
+    border: thin solid #6495ed;
+    width: 50%;
+}

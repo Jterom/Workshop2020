@@ -30,11 +30,11 @@ $types = $re->fetchAll();
             center: { lat: 47.212728, lng: -1.555596 },
         });
         <?php
-            $i =0;
+        $i =0;
         foreach ($positions as $position){
-            if ($position["type"]==$typemap){
-            $i++
-            ?>
+        if ($position["type"]==$typemap){
+        $i++
+        ?>
         const marker<?php echo $i?> = new google.maps.Marker({
             position:{lat: <?php echo $position["lat"] ?>, lng:<?php echo $position["lng"] ?>},
             map: map,
@@ -44,13 +44,13 @@ $types = $re->fetchAll();
 </script>
 <div id="map"></div>
 <form action="map.php">
-<select name="typemap">
+    <select name="typemap">
 
         <?php foreach ($types as $type){ ?>
-    <option <?php if ($typemap=="$type[0]"){ echo "selected"; } ?>> <?php echo $type[0] ?> </option>
+            <option <?php if ($typemap=="$type[0]"){ echo "selected"; } ?>> <?php echo $type[0] ?> </option>
         <?php } ?>
 
-</select>
+    </select>
     <input type="submit" class="btn right" value="Valider">
 </form>
 </body>

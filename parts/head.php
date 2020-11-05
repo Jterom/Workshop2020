@@ -6,6 +6,7 @@
 
         <!--Nos petits fichiers à nous-->        
         <link href="./src/css/header.css" rel="stylesheet" type="text/css"/>
+        <link href="./src/css/footer.css" rel="stylesheet" type="text/css"/>
         <link href="src/css/map.css" rel="stylesheet" type="text/css"/>
         <link href="src/css/a-propos.css" rel="stylesheet" type="text/css"/>
         <link href="src/css/index.css" rel="stylesheet" type="text/css"/>
@@ -13,6 +14,7 @@
         <link href="src/css/contact.css" rel="stylesheet" type="text/css"/>
         <link href="src/css/association.css" rel="stylesheet" type="text/css"/>
         <link href="src/css/calendrier.css" rel="stylesheet" type="text/css"/>
+        <link href="src/css/politique_conf.css" rel="stylesheet" type="text/css"/>
         <script src="src/js/map.js" type="text/javascript"></script>
 
         <!--API GOOGLE MAP-->

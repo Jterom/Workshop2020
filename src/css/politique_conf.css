@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+}
+
+.title{
+    text-align: center;
+    width: 100%;
+}
+
+.site{
+    padding: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+.rubrique{
+    padding: 1%;
+    width: 95%;
+}
+
+ul{
+    list-style: none;
+}
+#rubrique_title{
+    font-weight: bolder ;
+    text-decoration-line: underline;
+    font-size: larger;
+}
+
+#rubrique_little_title{
+    font-weight: bolder ;
+    font-size: medium;
+}
+
+#date_conf{
+    font-style: italic;
+}

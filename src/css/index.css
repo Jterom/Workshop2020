@@ -14,7 +14,7 @@ head{
     display: grid;
     grid-template-rows: auto auto ;
     background-color: darkseagreen;
-
+    text-align: center;
 }
 
 .title>h1{
@@ -132,5 +132,9 @@ head{
     grid-template-rows: auto auto;
     text-align: center;
     background-color: darkseagreen;
+}
 
+a{
+    text-decoration: none;
+    color: #222222;
 }

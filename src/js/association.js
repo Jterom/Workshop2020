@@ -1,0 +1,1 @@
+var valeur = document.querySelector('input[name=filtre]:checked').value;
