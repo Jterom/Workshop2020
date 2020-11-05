@@ -13,8 +13,8 @@
     </p>
 </div>
 
-<div class="but">
-    <p id="but_title">Le but de cette politique de confidentialité</p>
+<div class="rubrique">
+    <p id="rubrique_title">Le but de cette politique de confidentialité</p>
     <p>
         Le but de cette politique de confidentialité est d'informer les utilisateurs de notre site des données personnelles que nous recueillerons ainsi que les informations suivantes, le cas échéant :
     <ul>
@@ -29,8 +29,8 @@
 </div>
 
 
-<div class="lois">
-    <p id="lois_title">Lois applicables</p>
+<div class="rubrique">
+    <p id="rubrique_title">Lois applicables</p>
     <p>
         Conformément au Règlement général sur la protection des données (RGPD), cette politique de confidentialité est conforme aux règlements suivants.
         <br><br>
@@ -50,21 +50,158 @@
         Le traitement n'est licite que si, et dans la mesure où, au moins une des conditions suivantes est remplie :
         <br><br>
     <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-
+        <li>a.	La personne concernée a consenti au traitement de ses données à caractère personnel pour une ou plusieurs finalités spécifiques ;
+        </li>
+        <li>b.	Le traitement est nécessaire à l'exécution d'un contrat auquel la personne concernée est partie ou à l'exécution de mesures précontractuelles prises à la demande de celle-ci ;
+        </li>
+        <li>c.	Le traitement est nécessaire au respect d'une obligation légale à laquelle le responsable du traitement est soumis ;
+        </li>
+        <li>d.	le traitement est nécessaire à la sauvegarde des intérêts vitaux de la personne concernée ou d'une autre personne physique ;
+        </li>
+        <li>e.	le traitement est nécessaire à l'exécution d'une mission d'intérêt public ou relevant de l'exercice de l'autorité publique dont est investi le responsable du traitement ;
+        </li>
+        <li>f.	le traitement est nécessaire aux fins des intérêts légitimes poursuivis par le responsable du traitement ou par un tiers, à moins que ne prévalent les intérêts ou les libertés et droits fondamentaux de la personne concernée qui exigent une protection des données à caractère personnel, notamment lorsque la personne concernée est un enfant.
+        </li>
     </ul>
-        a.	La personne concernée a consenti au traitement de ses données à caractère personnel pour une ou plusieurs finalités spécifiques ;
-     <br>   b.	Le traitement est nécessaire à l'exécution d'un contrat auquel la personne concernée est partie ou à l'exécution de mesures précontractuelles prises à la demande de celle-ci ;
-      <br>  c.	Le traitement est nécessaire au respect d'une obligation légale à laquelle le responsable du traitement est soumis ;
-       <br> d.	le traitement est nécessaire à la sauvegarde des intérêts vitaux de la personne concernée ou d'une autre personne physique ;
-      <br>  e.	le traitement est nécessaire à l'exécution d'une mission d'intérêt public ou relevant de l'exercice de l'autorité publique dont est investi le responsable du traitement ;
-      <br>  f.	le traitement est nécessaire aux fins des intérêts légitimes poursuivis par le responsable du traitement ou par un tiers, à moins que ne prévalent les intérêts ou les libertés et droits fondamentaux de la personne concernée qui exigent une protection des données à caractère personnel, notamment lorsque la personne concernée est un enfant.
-<br><br>
         Pour les résidents de l’État de Californie, cette politique de confidentialité vise à se conformer à la California Consumer Privacy Act (CCPA). S’il y a des incohérences entre ce document et la CCPA, la législation de l’État s’appliquera. Si nous constatons des incohérences, nous modifierons notre politique pour nous conformer à la loi pertinente.</p>
+</div>
+
+<div class="rubrique">
+    <p id="rubrique_title">Consentement</p>
+    <p>Les utilisateurs conviennent qu’en utilisant notre site, ils consentent à :
+        <ul>
+        <li>a.	Les conditions énoncées dans la présente politique de confidentialité et
+        </li>
+        <li>b.	La collecte, l’utilisation et la conservation des données énumérées dans la présente politique.
+        </li>
+    </ul>
+    </p>
+</div>
+
+<div class="rubrique">
+    <p id="rubrique_title">Données personnelles que nous collectons</p>
+    <p>Données collectées automatiquement
+        <br><br>
+        Lorsque vous visitez et utilisez notre site, nous pouvons automatiquement recueillir et conserver les renseignements suivants :
+        <ul>
+        <li>a.	Liens un utilisateur clique tout en utilisant le site</li>
+        <li>b.	Contenu que l’utilisateur consulte sur votre site</li>
+    </ul>
+        Données recueillies de façon non automatique
+        <br><br>
+        Nous ne collectons pas de données supplémentaires lorsque l’utilisateur remplit certaines fonctions sur notre site.
+        <br><br>
+        Veuillez noter que nous ne collectons que les données qui nous aident à atteindre l’objectif énoncé dans cette politique de confidentialité. Nous ne recueillerons pas de données supplémentaires sans vous en informer au préalable.
+    </p>
+</div>
+
+<div class="rubrique">
+    <p id="rubrique_title">Comment nous utilisons les données personnelles</p>
+    <p>Les données personnelles recueillies sur notre site seront utilisées uniquement aux fins précisées dans la présente politique ou indiquées sur les pages pertinentes de notre site. Nous n’utiliserons pas vos données au-delà de ce que nous divulguerons.</p>
+</div>
+
+<div class="rubrique">
+    <p id="rubrique_title">Avec qui nous partageons les données personnelles</p>
+    <p id="rubrique_little_title">Employés</p>
+    <p>Nous pouvons divulguer à tout membre de notre organisation les données utilisateur dont il a raisonnablement besoin pour réaliser les objectifs énoncés dans la présente politique.
+
+    <p id="rubrique_little_title">Tierces parties</p>
+
+        Les tiers ne seront pas en mesure d’accéder aux données des utilisateurs au-delà de ce qui est raisonnablement nécessaire pour atteindre l’objectif donné.
+
+    <p id="rubrique_little_title">Autres divulgations</p>
+
+        Nous nous engageons à ne pas vendre ou partager vos données avec des tiers, sauf dans les cas suivants :
+
+    <ul>
+        <li>a.	Si la loi l'exige</li>
+        <li>b.	Si elle est requise pour toute procédure judiciaire</li>
+        <li>c.	Pour prouver ou protéger nos droits légaux</li>
+        <li>d.	à des acheteurs ou des acheteurs potentiels de cette société dans le cas où nous cherchons à la vendre la société
+        </li>
+    </ul>
+        Si vous suivez des hyperliens de notre site vers un autre site, veuillez noter que nous ne sommes pas responsables et n’avons pas de contrôle sur leurs politiques et pratiques de confidentialité.</p>
+</div>
+
+<div class="rubrique">
+    <p id="rubrique_title">Combien de temps nous stockons les données personnelles</p>
+    <p>Nous ne conservons pas les données des utilisateurs au-delà de ce qui est nécessaire pour atteindre les fins pour lesquelles elles sont recueillies.
+    </p>
+</div>
+
+<div class="rubrique">
+    <p id="rubrique_title">Comment nous protégeons vos données personnelles</p>
+    <p>Afin d’assurer la protection de votre sécurité, nous utilisons le protocole de sécurité de la couche transport pour transmettre des renseignements personnels dans notre système.
+        <br><br>
+        Toutes les données stockées dans notre système sont bien sécurisées et ne sont accessibles qu’à nos employés. Nos employés sont liés par des accords de confidentialité stricts et une violation de cet accord entraînerait le licenciement de l'employé.
+        <br><br>
+        Alors que nous prenons toutes les précautions raisonnables pour nous assurer que nos données d’utilisateur sont sécurisées et que les utilisateurs sont protégés, il reste toujours du risque de préjudice. L’Internet en sa totalité peut être, parfois, peu sûr et donc nous sommes incapables de garantir la sécurité des données des utilisateurs au-delà de ce qui est raisonnablement pratique.
+    </p>
+</div>
+
+<div class="rubrique">
+    <p id="rubrique_title">Mineurs</p>
+    <p>Le RGPD précise que les personnes de moins de 15 ans sont considérées comme des mineurs aux fins de la collecte de données. Les mineurs doivent avoir le consentement d’un représentant légal pour que leurs données soient recueillies, traitées et utilisées.
+    </p>
+</div>
+
+<div class="rubrique">
+    <p id="rubrique_title">Vos droits en tant qu’utilisateur</p>
+    <p>En vertu du RGPD, les utilisateurs ont les droits suivants en tant que personnes concernées :
+        <ul>
+        <li>a.	Droit d’accès</li>
+        <li>b.	Droit de rectification</li>
+        <li>c.	Droit à l’effacement</li>
+        <li>d.	Droit de restreindre le traitement</li>
+        <li>e.	Droit à la portabilité des données</li>
+        <li>f.	Droit d'objection</li>
+    </ul>
+    Vous trouverez de plus amples informations sur ces droits au chapitre 3 (art 12-23) du RGPD.
+
+    </p>
+</div>
+
+
+<div class="rubrique">
+    <p id="rubrique_title">Comment modifier, supprimer ou contester les données recueillies</p>
+    <p>Si vous souhaitez que vos renseignements soient supprimés ou modifiés d’une façon ou d’une autre, veuillez communiquer avec notre agent de protection de la vie privée ici :
+        <br><br>
+        solutionsdurables@gmail.com
+    </p>
+</div>
+
+<div class="rubrique">
+    <p id="rubrique_title">Politique sur les cookies</p>
+    <p>Un cookie est un petit fichier, stocké sur le disque dur d’un utilisateur par le site Web. Son but est de recueillir des données relatives aux habitudes de navigation de l’utilisateur.
+        <br><br>
+        Nous utilisons les types de cookies suivants sur notre site :
+        <ul>
+        <li id="rubrique_little_title">a.	Cookies analytiques</li>
+        <li> Cela nous permet d’améliorer la conception et la fonctionnalité de notre site en recueillant des
+            données sur le contenu auquel vous accédez et sur lequel vous vous accrochez en utilisant
+            notre site.</li>
+    </ul>
+    Vous pouvez choisir d’être averti chaque fois qu’un cookie est transmis. Vous pouvez également choisir de désactiver les cookies entièrement dans votre navigateur Internet, mais cela peut diminuer la qualité de votre expérience d’utilisation.
+
+    </p>
+</div>
+
+<div class="rubrique">
+    <p id="rubrique_title">Modifications</p>
+    <p>Cette politique de confidentialité peut être modifiée à l’occasion afin de maintenir la conformité avec la loi et de tenir compte de tout changement à notre processus de collecte de données. Nous recommandons à nos utilisateurs de vérifier notre politique de temps à autre pour s’assurer qu’ils soient informés de toute mise à jour. Au besoin, nous pouvons informer les utilisateurs par courriel des changements apportés à cette politique.
+    </p>
+</div>
+
+<div class="rubrique">
+    <p id="rubrique_title">Contact</p>
+    <p>Si vous avez des questions à nous poser, n’hésitez pas à communiquer avec nous en utilisant ce qui suit :
+        <br>
+        solutionsdurables@gmail.com
+    </p>
+</div>
+
+<div class="rubrique">
+    <p id="date_conf">Date d’entrée en vigueur : le 5 novembre 2020</p>
 </div>
 
 </body>

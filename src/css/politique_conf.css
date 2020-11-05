@@ -16,15 +16,25 @@ body{
     text-align: center;
 }
 
-.but, .lois{
+.rubrique{
     padding: 1%;
+    width: 95%;
 }
 
-.but>ul{
+ul{
     list-style: none;
 }
-#but_title, #lois_title{
+#rubrique_title{
     font-weight: bolder ;
     text-decoration-line: underline;
     font-size: larger;
+}
+
+#rubrique_little_title{
+    font-weight: bolder ;
+    font-size: medium;
+}
+
+#date_conf{
+    font-style: italic;
 }
