@@ -82,12 +82,12 @@ $types = $re->fetchAll();
         foreach ($datas as $data) {
             if($typemap == $data['type'])
                 echo '<td>' . $data['nom'] . '</td>
-                 <td>' . $data['mail'] . '</td>
-                 <td>' . $data['tel'] . '</td>
-                 <td>' . $data['adresse'] . '</td>
-                 <td>' . $data['lien'] . '</td>
-                 <td>' . $data['description'] . '</td>
-                </tr>';
+                     <td>' . $data['mail'] . '</td>
+                     <td>' . $data['tel'] . '</td>
+                     <td>' . $data['adresse'] . '</td>
+                     <td>' . $data['lien'] . '</td>
+                     <td>' . $data['description'] . '</td>
+                    </tr>';
         }
         echo '</table>';
         ?>
