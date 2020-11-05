@@ -11,23 +11,22 @@ head{
 
 /*Partie de recherche*/
 .search{
-    margin: auto;
     width: 100%;
     padding-top: 3%;
     padding-bottom: 5%;
-    grid-row-start: 2;
+    grid-row-start: 3;
     text-align: center;
 }
 
 /*Partie Filtre*/
 #filtre_title{
-    grid-row-start: 3;
+    grid-row-start: 4;
     text-align: center;
 
 }
 .filtrecheck{
     padding: 2%;
-    grid-row-start: 4;
+    grid-row-start: 5;
     display: grid;
     grid-template-columns: 10% auto auto auto auto auto auto 10%;
     background-color: darkseagreen;

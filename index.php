@@ -37,7 +37,7 @@
     <p id="velo_resume">grâce au bicloo, empruntez les pistes cyclables. </p>
     <img src="src/ressources/velo.jpg" id="velo_img">
     <h4 id="potager_title">Potagers partagés & solidaires :</h4>
-    <p id="potager_resume">profitez des avantages de la campagne, en pleine ville.</p>
+    <p id="potager_resume">venez profiter des fruits et légumes cultivés dans votre quartier.</p>
     <img src="src/ressources/potager.jpg" id="potager_img">
     <h4 id="compost_title">Réduisez vos déchets :</h4>
     <p id="compost_resume">   localisez les composts, près de chez vous. </p>
@@ -45,8 +45,12 @@
 </div>
 
 <div class="all_actors">
-    <h5 id="actors_title">Devenez à votre tour, acteur de la transition écologique de votre ville !</h5>
-    <p id="actors_resume">Accédez à notre réseau de proximité. Nous avons regroupé les contacts associatifs, qui oeuvrent quotidiennement à Nantes. Ils ont besoin de votre contribution. </p>
+    <h5 id="actors_title">Accédez à notre <a href="association.php" style="text-decoration: none;color: #222222">réseau de proximité :</a> </h5>
+        <ul>
+        <li>- associations environnementales</li>
+        <li>- pros du vélo</li>
+        <li>- maraîchers et producteurs locaux</li>
+    </ul>
 </div>
 </body>
 </html>

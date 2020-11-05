@@ -25,6 +25,9 @@
 
     </script>
 
+
+    <a href="contact.php"> <button>Soumettre un contact</button> </a>
+
 <div class="search">
     <input type="search" id="site-search">
     <button id="button-search">Search</button>
