@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4a60ab3-5aa9-434e-affd-5169e3c73a24" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/map.php" beforeDir="false" afterPath="$PROJECT_DIR$/map.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/map.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/map.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/association.php" beforeDir="false" afterPath="$PROJECT_DIR$/association.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +25,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -39,11 +40,12 @@
       <updated>1604587095748</updated>
       <workItem from="1604587098183" duration="20000" />
       <workItem from="1604587126243" duration="1062000" />
+      <workItem from="1604589917736" duration="23000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="174" key="#CLI_Interpreters" timestamp="1604587157997">
