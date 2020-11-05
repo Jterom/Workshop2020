@@ -80,11 +80,10 @@ td, th {
 }
 .container-form-association{
     margin-left: 30px;
-=======
-    width: 13%;
->>>>>>> a71ae1e1d8aafd4796459c7ccf63afb25c15120c
+    margin-top: 15px;
 }
 .soumettre-un-contact{
+    margin-top: 15px;
     background-color: #cdcdcd;
     border-radius: 10px;
     color: black;

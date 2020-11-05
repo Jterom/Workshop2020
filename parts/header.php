@@ -7,8 +7,8 @@
         <div class="navbar-nav">
             <a class="nav-item nav-link" href="index.php">Accueil</a>
             <a class="nav-item nav-link" href="actualite.php">Actualités</a>
-            <a class="nav-item nav-link" href="map.php">Map</a>
-            <a class="nav-item nav-link" href="association.php">Réseau de proximité</a>
+            <a class="nav-item nav-link" href="map.php?typemap=bicloo">Map</a>
+            <a class="nav-item nav-link" href="association.php?typemap=Association+environnement">Réseau de proximité</a>
             <a class="nav-item nav-link" href="calendrier.php">Calendrier</a>
             <a class="nav-item nav-link" href="a-propos.php">Notre projet</a>
             <a class="nav-item nav-link" href="contact.php">Contact</a>

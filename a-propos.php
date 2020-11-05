@@ -16,21 +16,48 @@
     <div class="container-solutions">
         <div class="item-solution">
             <p>Carte dynamique</p>
-            <img height="200" src="src/ressources/carte-dynamique.png">
+            <img src="src/img/velib.jpg">
+
+            <p>Nous avons localisé sur cette carte, les indispensables de votre quotidien :</p>
+            <p>- stations bicloo<br>
+                - composteurs<br>
+                - déchetterie & écopoints<br>
+                - parcs
+            </p>
         </div>
         <div class="item-solution">
             Réseau de proximité
-            <img height="200" src="src/ressources/reseau-de-proximite.png">
+            <img src="src/img/reseauproximite.jpg">
+<p>Connaissez-vous les acteurs présents, autour de vous ?</p>
+<p>Bienvenue dans notre réseau de proximité, qui regroupe :</p>
+<p>
+    - associations environnementales<br>
+    - pros du vélo<br>
+    - maraîchers<br>
+    - producteurs locaux
+</p>
+
+
+
+
+
+
+
         </div>
         <div class="item-solution">
             Agenda
-            <img height="200" src="src/ressources/calendrier.png">
+            <img src="src/img/agenda2.jpg">
+            <p>Notre agenda regroupe des événements en lien avec l’écologie. Ateliers ou thématiques environnementales : l’occasion de rencontrer, d’apprendre et d’échanger.</p>
+            <p>Nous avons aussi souhaité intégrer les meetup et afterwork, afin de rythmer vos semaines de télétravailleur.</p>
+
+
+
         </div>
     </div>
 
-    <p>Enfin, nous avons pour vocation de vous mettre en relation, via une page facebook dédiée.</p>
+    <p>Enfin, nous avons pour vocation de vous mettre en relation. Pour cela, nous avons mis en place un groupe facebook, vous permettant d’échanger.</p>
 
-    <p>Pour nous rejoindre, adressez nous une demande en  <a href="contact.php">cliquant ici</a> </p>
+    <p>Pour nous rejoindre, adressez-nous une demande en  <a href="contact.php">cliquant ici</a> </p>
 
 
 </div>

@@ -26,7 +26,7 @@ $types = $re->fetchAll();
     function initMap() {
 
         const map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 12,
+            zoom: 14,
             center: { lat: 47.212728, lng: -1.555596 },
         });
         <?php

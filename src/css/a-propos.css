@@ -20,6 +20,13 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+    width: 250px;
+}
+.item-solution>img{
+    margin: 10px;
+    height: 160px;
+    border: solid black 1px;
+
 }
 .container-a-propos>p{
     margin: 25px;
