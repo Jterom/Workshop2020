@@ -63,17 +63,7 @@ head{
     margin: 4px 2px;
     cursor: pointer;
 }
-button {
-    grid-column-start: 7;
-    background-color: #222222;
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-}
+
 
 .liste_asso{
     padding: 2%;
@@ -84,6 +74,21 @@ table {
     width: 100%;
 }
 td, th {
+    padding: 10px;
     border: thin solid #6495ed;
-    width: 50%;
+    width: 15%;
+}
+.container-form-association{
+    margin-left: 30px;
+}
+.soumettre-un-contact{
+    background-color: #cdcdcd;
+    border-radius: 10px;
+    color: black;
+    border: solid black 1px;
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    top: 105px;
+    right: 25px;
 }

@@ -5,7 +5,8 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="actualite.php">Actualités <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="index.php">Accueil</a>
+            <a class="nav-item nav-link" href="actualite.php">Actualités</a>
             <a class="nav-item nav-link" href="map.php">Map</a>
             <a class="nav-item nav-link" href="association.php">Réseau de proximité</a>
             <a class="nav-item nav-link" href="calendrier.php">Calendrier</a>

@@ -3,7 +3,7 @@
     <head>
 
         <title>Simple Map</title>
-
+        <meta charset="utf-8">
         <!--Nos petits fichiers à nous-->        
         <link href="./src/css/header.css" rel="stylesheet" type="text/css"/>
         <link href="./src/css/footer.css" rel="stylesheet" type="text/css"/>

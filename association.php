@@ -23,40 +23,12 @@ $types = $re->fetchAll();
 
 
 
-
-    <div class="search">
-        <a href="contact.php"> <button>Soumettre un contact</button> </a>
-        <input type="search" id="site-search">
-        <button id="button-search">Rechercher</button>
-    </div>
+    <a href="contact.php"><button class="soumettre-un-contact">Soumettre un contact</button></a>
 
 
-
-    <!--<form action="" method="POST">
-        <h3 id="filtre_title">Filtre par catégories</h3>
-        <div class="filtrecheck">
-            <div id="Environnement">
-                <input type="radio" value="Association environnement" name="filtre" >
-                <label id="Environnement_label">Environnement</label>
-            </div>
-            <div id="Reparation">
-                <input type="radio" value="Pour vos vélos" name="filtre">
-                <label id="Reparation_label">Réparation (vélo)</label>
-            </div>
-            <div id="Maraicher">
-                <input type="radio" value="Maraîchers" name="filtre">
-                <label id="Maraicher_label">Maraicher</label>
-            </div>
-            <div id="Producteurs">
-                <input type="radio" value="Producteurs locaux" name="filtre">
-                <label id="Producteurs_label">Producteurs locaux</label>
-            </div>
-            <input type="button" name="rafrachir" id="rafraichir" value="Rafraichir">
-        </div>
-    </form>-->
-
+<div class="container-form-association">
     <form action="association.php">
-        <select name="typemap">
+        <select name="typemap" class="form-control-lg">
 
             <?php foreach ($types as $type){ ?>
                 <option <?php if ($typemap=="$type[0]"){ echo "selected"; } ?>> <?php echo $type[0] ?> </option>
@@ -65,6 +37,8 @@ $types = $re->fetchAll();
         </select>
         <input type="submit" class="btn right" value="Valider">
     </form>
+</div>
+
 
 
     <div class="liste_asso">

@@ -55,6 +55,7 @@ $types = $re->fetchAll();
         <input type="submit" class="btn right" value="Valider">
     </form>
 </div>
+<a href="contact.php" ><button class="proposer-un-point">Proposer un point</button></a>
 
 </body>
 </html>
