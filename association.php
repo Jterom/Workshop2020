@@ -25,9 +25,13 @@
 
     </script>
 
+
+
+
 <div class="search">
+    <a href="contact.php"> <button>Soumettre un contact</button> </a>
     <input type="search" id="site-search">
-    <button id="button-search">Search</button>
+    <button id="button-search">Rechercher</button>
 </div>
 
 

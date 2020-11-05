@@ -1,6 +1,7 @@
 <?php include './parts/head.php'; ?>
 <?php include './parts/header.php'; ?>
 
+<<<<<<< HEAD
 <div class="container contact-form">
     <div class="contact-image">
         <img src="src/img/Logo_workshopBlack.png" height="200px" alt="rocket_contact"/>
@@ -33,3 +34,9 @@
 
 </body>
 </html>
+=======
+
+    </body>
+    </html>
+<?php include './parts/footer.php'; ?>
+>>>>>>> 86895a232c2ea608d5ec6d6aabc05f9d36a43c54

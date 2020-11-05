@@ -9,7 +9,7 @@
             <a class="nav-item nav-link" href="map.php">Map</a>
             <a class="nav-item nav-link" href="association.php">Réseau de proximité</a>
             <a class="nav-item nav-link" href="calendrier.php">Calendrier</a>
-            <a class="nav-item nav-link" href="a-propos.php">A propos</a>
+            <a class="nav-item nav-link" href="a-propos.php">Notre projet</a>
             <a class="nav-item nav-link" href="contact.php">Contact</a>
             <a class="nav-item nav-link" href="politique_conf.php">Politique de confidentialité</a>
         </div>

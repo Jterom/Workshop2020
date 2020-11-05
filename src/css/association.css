@@ -11,12 +11,15 @@ head{
 
 /*Partie de recherche*/
 .search{
-    margin: auto;
     width: 100%;
     padding-top: 3%;
     padding-bottom: 5%;
     grid-row-start: 2;
     text-align: center;
+}
+
+.search>#site-search{
+    padding-left: 5%;
 }
 
 /*Partie Filtre*/
