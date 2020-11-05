@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+}
+
+.title{
+    text-align: center;
+    width: 100%;
+}
+
+.site{
+    padding: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+.but, .lois{
+    padding: 1%;
+}
+
+.but>ul{
+    list-style: none;
+}
+#but_title, #lois_title{
+    font-weight: bolder ;
+    text-decoration-line: underline;
+    font-size: larger;
+}
