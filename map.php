@@ -1,6 +1,8 @@
 <?php include './parts/head.php'; ?>
 <?php include './parts/header.php';
 
+$typemap= filter_input(INPUT_GET, "typemap");
+
 $db = new PDO("mysql:host=localhost" . ";dbname=wordpress2020", "root", "root");
 
 
@@ -8,7 +10,13 @@ $r = $db->prepare("select * from Position ");
 
 $r->execute();
 
+$re = $db->prepare("SELECT type from Position GROUP BY type");
+
+$re->execute();
+
 $positions = $r->fetchAll();
+
+$types = $re->fetchAll();
 
 
 
@@ -17,25 +25,33 @@ $positions = $r->fetchAll();
 
     function initMap() {
 
-        // The location of Uluru
-        const uluru = { lat: -25.344, lng: 131.036 };
-        // The map, centered at Uluru
         const map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 4,
-            center: uluru,
+            zoom: 12,
+            center: { lat: 47.212728, lng: -1.555596 },
         });
         <?php
             $i =0;
         foreach ($positions as $position){
+            if ($position["type"]==$typemap){
             $i++
             ?>
         const marker<?php echo $i?> = new google.maps.Marker({
             position:{lat: <?php echo $position["lat"] ?>, lng:<?php echo $position["lng"] ?>},
             map: map,
         });
-        <?php } ?>
+        <?php }}?>
     }
 </script>
 <div id="map"></div>
+<form action="map.php">
+<select name="typemap">
+
+        <?php foreach ($types as $type){ ?>
+    <option <?php if ($typemap=="$type[0]"){ echo "selected"; } ?>> <?php echo $type[0] ?> </option>
+        <?php } ?>
+
+</select>
+    <input type="submit" class="btn right" value="Valider">
+</form>
 </body>
 </html>
