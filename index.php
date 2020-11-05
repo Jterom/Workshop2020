@@ -33,15 +33,21 @@
 </div>
 
 <div class="lien">
-    <h4 id="velo_title">Nantes à vélo :</h4>
-    <p id="velo_resume">grâce au bicloo, empruntez les pistes cyclables. </p>
-    <img src="src/ressources/velo.jpg" id="velo_img">
-    <h4 id="potager_title">Potagers partagés & solidaires :</h4>
-    <p id="potager_resume">venez profiter des fruits et légumes cultivés dans votre quartier.</p>
-    <img src="src/ressources/potager.jpg" id="potager_img">
-    <h4 id="compost_title">Réduisez vos déchets :</h4>
-    <p id="compost_resume">   localisez les composts, près de chez vous. </p>
-    <img src="src/ressources/compost.jpg" id="compost_img">
+    <a href="map.php?typemap=bicloo">
+        <h4 id="velo_title">Nantes à vélo :</h4>
+        <p id="velo_resume">grâce au bicloo, empruntez les pistes cyclables. </p>
+        <img src="src/ressources/velo.jpg" id="velo_img">
+    </a>
+    <a href="map.php?typemap=Parc">
+        <h4 id="potager_title">Potagers partagés & solidaires :</h4>
+        <p id="potager_resume">venez profiter des fruits et légumes cultivés dans votre quartier.</p>
+        <img src="src/ressources/potager.jpg" id="potager_img">
+    </a>
+    <a href="map.php?typemap=Composteur">
+        <h4 id="compost_title">Réduisez vos déchets :</h4>
+        <p id="compost_resume">   localisez les composts, près de chez vous. </p>
+        <img src="src/ressources/compost.jpg" id="compost_img">
+    </a>
 </div>
 
 <div class="all_actors">
