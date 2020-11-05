@@ -48,10 +48,8 @@ head{
 .filtrecheck>#Producteurs{
     grid-column-start: 5;
 }
-.filtrecheck>#BioCoop{
-    grid-column-start: 6;
-}
-button{
+
+#rafraichir{
     grid-column-start: 7;
     background-color: #222222;
     border: none;
@@ -61,4 +59,28 @@ button{
     display: inline-block;
     margin: 4px 2px;
     cursor: pointer;
+}
+button {
+    grid-column-start: 7;
+    background-color: #222222;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.liste_asso{
+    padding: 2%;
+}
+
+table {
+    border: medium solid #000000;
+    width: 100%;
+}
+td, th {
+    border: thin solid #6495ed;
+    width: 50%;
 }
