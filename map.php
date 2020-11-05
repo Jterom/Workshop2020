@@ -3,7 +3,7 @@
 
 $typemap= filter_input(INPUT_GET, "typemap");
 
-$db = new PDO("mysql:host=localhost" . ";dbname=wordpress2020", "root", "root");
+$db = new PDO("mysql:host=localhost" . ";dbname=workshop2020", "root", "");
 
 
 $r = $db->prepare("select * from Position ");
@@ -43,15 +43,18 @@ $types = $re->fetchAll();
     }
 </script>
 <div id="map"></div>
-<form action="map.php">
-    <select name="typemap">
+<div class="container-form-map">
+    <form action="map.php">
+        <select name="typemap" class="form-control-lg" >
 
-        <?php foreach ($types as $type){ ?>
-            <option <?php if ($typemap=="$type[0]"){ echo "selected"; } ?>> <?php echo $type[0] ?> </option>
-        <?php } ?>
+            <?php foreach ($types as $type){ ?>
+                <option <?php if ($typemap=="$type[0]"){ echo "selected"; } ?>> <?php echo $type[0] ?> </option>
+            <?php } ?>
 
-    </select>
-    <input type="submit" class="btn right" value="Valider">
-</form>
+        </select>
+        <input type="submit" class="btn right" value="Valider">
+    </form>
+</div>
+
 </body>
 </html>
