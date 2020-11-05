@@ -13,6 +13,7 @@
             <a class="nav-item nav-link" href="a-propos.php">Notre projet</a>
             <a class="nav-item nav-link" href="contact.php">Contact</a>
             <a class="nav-item nav-link" href="politique_conf.php">Politique de confidentialité</a>
+            <a class="nav-item nav-link logo-facebook" href="https://www.facebook.com/groups/solutionsdurablesnantaises"><img src="src/img/facebook-logo.png" alt=""></a>
         </div>
     </div>
 </nav>

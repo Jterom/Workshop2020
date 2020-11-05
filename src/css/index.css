@@ -3,6 +3,7 @@ body{
     padding: 0;
     display: grid;
     grid-template-rows : auto auto auto auto auto auto auto;
+    background: url("../img/background2.jpg");
 }
 head{
     grid-row-start: 1;

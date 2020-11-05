@@ -1,0 +1,9 @@
+.logo-facebook{
+    position: absolute;
+    right: 25px;
+    top: 10px;
+}
+
+.logo-facebook>img{
+    height: 60px;
+}
