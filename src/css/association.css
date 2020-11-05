@@ -76,10 +76,14 @@ table {
 td, th {
     padding: 10px;
     border: thin solid #6495ed;
+<<<<<<< HEAD
     width: 15%;
 }
 .container-form-association{
     margin-left: 30px;
+=======
+    width: 13%;
+>>>>>>> a71ae1e1d8aafd4796459c7ccf63afb25c15120c
 }
 .soumettre-un-contact{
     background-color: #cdcdcd;
