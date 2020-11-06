@@ -3,42 +3,42 @@
 
 <?php
 
-$typemap = filter_input(INPUT_GET, "typemap");
+$typemap= filter_input(INPUT_GET, "typemap");
 
-$bdd = new PDO('mysql:host=db5001140370.hosting-data.io;dbname=dbs976388', 'dbu724814', 'LePain44!');
+$bdd = new PDO('mysql:host=localhost;dbname=workshop2020', 'root', '');
 
 
 $reponse = $bdd->query('SELECT * FROM reseaudeproximite ');
 
 $reponse->execute();
 
-$datas = $reponse->fetchAll();
+$datas =$reponse->fetchAll();
 
 $re = $bdd->prepare("SELECT type from reseaudeproximite GROUP BY type");
+
 $re->execute();
+
 $types = $re->fetchAll();
 ?>
 
 
-    <a href="contact.php">
-        <button class="soumettre-un-contact">Soumettre un contact</button>
-    </a>
+
+    <a href="contact.php"><button class="soumettre-un-contact">Soumettre un contact</button></a>
 
 
-    <div class="container-form-association">
-        <form action="association.php">
-            <select name="typemap" class="form-control-lg">
+<div class="container-form-association">
+    <form action="association.php">
+        <select name="typemap" class="form-control-lg">
 
-                <?php foreach ($types as $type) { ?>
-                    <option <?php if ($typemap == "$type[0]") {
-                        echo "selected";
-                    } ?>> <?php echo $type[0] ?> </option>
-                <?php } ?>
+            <?php foreach ($types as $type){ ?>
+                <option <?php if ($typemap=="$type[0]"){ echo "selected"; } ?>> <?php echo $type[0] ?> </option>
+            <?php } ?>
 
-            </select>
-            <input type="submit" class="btn right" value="Valider">
-        </form>
-    </div>
+        </select>
+        <input type="submit" class="btn right" value="Valider">
+    </form>
+</div>
+
 
 
     <div class="liste_asso">
@@ -54,7 +54,7 @@ $types = $re->fetchAll();
                 </tr>
                 <tr>';
         foreach ($datas as $data) {
-            if ($typemap == $data['type'])
+            if($typemap == $data['type'])
                 echo '<td>' . $data['nom'] . '</td>
                      <td>' . $data['mail'] . '</td>
                      <td>' . $data['tel'] . '</td>

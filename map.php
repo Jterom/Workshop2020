@@ -3,7 +3,7 @@
 
 $typemap= filter_input(INPUT_GET, "typemap");
 
-$db = new PDO("mysql:host=db5001140370.hosting-data.io" . ";dbname=dbs976388", "dbu724814", "LePain44!");
+$db = new PDO("mysql:host=localhost" . ";dbname=workshop2020", "root", "");
 
 
 $r = $db->prepare("select * from Position ");

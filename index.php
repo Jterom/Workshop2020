@@ -19,11 +19,11 @@
         <br>A travers cette carte, visualisez la transformation nantaise !
     </p>
     <figure>
-        <img id="map_today" src="src/ressources/Nantes.PNG" alt="Nantes aujourd'hui" >
+        <img id="map_today" src="src/ressources/carte1.png" alt="Nantes aujourd'hui" >
         <figcaption>Nantes aujourd'hui</figcaption>
     </figure>
     <figure>
-        <img id="map_tomorrow" src="src/ressources/Nantes.PNG" alt="Nantes demain">
+        <img id="map_tomorrow" src="src/ressources/carte2.png" alt="Nantes demain">
         <figcaption>Nantes demain</figcaption>
     </figure>
 </div>
