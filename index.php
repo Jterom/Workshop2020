@@ -9,13 +9,14 @@
     <h2 id="title">Nantes d’hier à aujourd’hui :</h2>
     <p id="resume">
 
-        Progressivement Nantes a permis de s’intégrer comme ville connectée et écologique.
-        Cette transformation, s’est accompagnée par une modification des modes de vie : le télétravail ou les potagers solidaires.
 
-        Zoom sur l’évolution de la ville au cours de ces dernières  années :
-        > développement des pistes cyclables, des centres de tri, des points de composts etc.
+        Progressivement la ville de Nantes s’est imposée comme ville connectée et écologique.<br>
 
-        A travers cette carte, visualisez la transformation Nantaise !
+        <br>Cette transformation s’est accompagnée par une modification des modes de vie.<br>
+        Au cœur du paysage urbain, composts et potagers solidaires, se sont progressivement implantés.<br>
+        Le télétravail s’est généralisé. Enfin, la circulation à vélo a été favorisée par plusieurs dispositifs.<br>
+
+        <br>A travers cette carte, visualisez la transformation nantaise !
     </p>
     <figure>
         <img id="map_today" src="src/ressources/Nantes.PNG" alt="Nantes aujourd'hui" >
